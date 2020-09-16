@@ -1,9 +1,11 @@
 # DBMS_MAPS_STRUCT: Database Managemnet for a Hotel
-> Uses Structure and Maps to manage the rooms of a 5 Start Hotel in INDIA                                                                                                     
-> After the data is stored the Relational table is saves as a .txt file for performing Oracle RDBMS operations.                                                             
-> After the Guests Checkin, they are asked for their preferences like Complementary Breakfast and Gym Booking.                                                    
-> The Preferences are tabulated and saved as a .csv file.                                                                                                     
-> The preferences are not pushed to the main Guest Database, as "the preferences are asked from the guests every night. And we don't want to disturb the main DB that often."
+> 1. Uses Structure and Maps to manage the rooms of a 5 Start Hotel in INDIA                                                                                                     
+> 2. At 7:00 pm the data of all the day's guest list is stored into the Relational table is saves as a .csv file for performing Oracle RDBMS operations.                           
+> 3. After the Guests Checkin, During eveing 7:00pm they are asked for their preferences like Complementary Breakfast and Gym Booking.                                             
+> 4. The Preferences are tabulated and saved as a .csv file.                                                                                                     
+> 5. The preferences are Joined to the day's Guest Database table.
+> 6. Now the updated Day's Guest Details<including the preferneces> are Pushed into the Guest Database which includs the metadata of all the guests residing in the hotel.       
+> 7. According to the data in the Metadata or the parent table -> Count of the Breakfast is calculated for next day's Breakfast preperation.                    
 
 ## Installation
 
