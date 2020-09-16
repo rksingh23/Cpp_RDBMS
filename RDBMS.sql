@@ -20,10 +20,3 @@ SELECT count(Breakfast) as "Count" FROM MetaDataRooms where Breakfast='Yes';
 /* CALCULATING THE NUMBER OF PEOPLE going to use GYM using the METADATA_GuestDB details*/
 SELECT * FROM MetaDataRooms where GYM='Yes';
 ORDER BY Room DESC;
-
-
-
-
-
-
-
