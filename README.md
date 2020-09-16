@@ -1,5 +1,5 @@
 # DBMS_MAPS_STRUCT: Database Managemnet for a Hotel
-> Uses Structure and Maps to manage the rooms of a 5 Start Hotel in INDIA
+> Uses Structure and Maps to manage the rooms of a 5 Start Hotel in INDIA                                                                                                     
 > After the data is stored the Relational table is saves as a .txt file for performing Oracle RDBMS operations. 
 
 ## Installation
